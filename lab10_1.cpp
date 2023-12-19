@@ -2,7 +2,8 @@
 using namespace std;
 
 int main(){
-	int count[5] = {}; //Declare array count for counting A,B,C,D,F and initialize all element = 0
+	char grade ;
+	int count[5] = {'0','0','0','0','0'}; //Declare array count for counting A,B,C,D,F and initialize all element = 0
 	cout << "Please input grade of each student (A-F) or input 0 to exit.";
 	do{
 		cout << "Student [" << "]: ";
